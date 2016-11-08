@@ -13,6 +13,8 @@ One accomplishment today that I'm proud of is the mad amount of comments I added
 Markdown resources:  
 https://guides.github.com/features/mastering-markdown/  
 http://markdownlivepreview.com/  
+ctrl + , for settings  
+ctrl + shift + m for preview  
 
 Class github page:  
 https://github.com/codefellows/portland-201d6/tree/master/class-01-toolbelt-terminal-git/lab
