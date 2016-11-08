@@ -9,3 +9,10 @@ Commit: git commit -m "description" to save the current state of the file for ve
 Push: git push <remote> <branch> to push the commit to github.
 
 One accomplishment today that I'm proud of is the mad amount of comments I added in my assignment. It may have been a small, short exercise but if I can instill this habit of explicitly explaining myself as I code I believe it will make me a more productive developer.  
+
+Markdown resources:  
+https://guides.github.com/features/mastering-markdown/  
+http://markdownlivepreview.com/  
+
+Class github page:  
+https://github.com/codefellows/portland-201d6/tree/master/class-01-toolbelt-terminal-git/lab
