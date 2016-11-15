@@ -1,8 +1,12 @@
 # Learning Journal Code 201 Day 6
+Lab started well and I attribute that to focusing on the problem and designing more in length how I could accomplish small bits of code. It wasn't until I needed an element from a returned array of a property (see, aProperty: function()[iCantGetThis]) because that would call the function each time (which has a random number generator) and change the return value. This is when the lab escaped my knowledge.
 
-When you get unexpected results, start logging them out. For example, in Lab 5, functions returned arrays and we wanted index values to return, not the whole array. It was commonly overlooked that whole arrays, not separate index:elements were being returned.  
+Eventually Aaron and the TAs helped me conceptualize that I could use that value's function to populate the value for a different property. I was hung up on values for properties are either declared or returned from a function, and nothing else. After this breakthrough I was able to continue my progress.
+
 
 ## Code review  
+When you get unexpected results, start logging them out. For example, in Lab 5, functions returned arrays and we wanted index values to return, not the whole array. It was commonly overlooked that whole arrays, not separate index:elements were being returned.  
+
 sum(a, b) returns an array [total, string]  
 function sumAndMultiply (a, b, c) {  
   var firstSum = sum(a, b)[0]; // gives access to the first[0] index:elemnent after the sum function returns its array  
