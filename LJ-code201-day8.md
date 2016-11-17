@@ -1,12 +1,21 @@
 # LJ Code 201 day 8
 
+It's the end of what has been called 3 of the most difficult days of the course yet I have not pulled out my hair. This is a good sign. In reality I've feel satisfied with the work I've done since Monday. By taking more time to analyze the problem I noticed I've asked more questions about my algorithm rather than why my code isn't working. It's a change from last week where I tried to jump in, lose scope of the big picture, and then lose my way.
+
+One of the things I'm proud of today is how I cleaned up my code/used the DRY principle. It's almost looking good enough for me to volunteer for code review even if my CSS says otherwise. DRY'ing up helped me see how functions can exist within functions and how object methods can be called within other objects. I could see how it was going to work but today I got more on how to write out the semantics of how to reference these methods.
+
+Lastly, at some point today or yesterday I finally felt comfortable with git/github. It only took the 102 and 1.5 weeks of 201 to finally feel good navigating through it.
+
+## Resources for CSS/HTML
+http://scratchpad.io/  
+http://codepen.io/
 
 ## Code review
 If you make an object with a constructor you can still add or edit properties using objectName.someProperty = value.  
 
 ## Forms and Events
 Major <strong>event</strong> we're focusing on: SUBMIT  
-Events capture interaction, anyway you to take input from a user.  
+Events capture interaction, anyway you take input from a user.  
 
 <!-- HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML HTML  HTML -->
 <!DOCTYPE html>
@@ -103,7 +112,7 @@ function renderChat() {
 
   chatSection.textContent = '';  
 
-  for (var i = 0; i < messages.length; i++) {
+  for (var i = 0; i < messages.length; i++) {  
     messageParagraph = document.createElement('p'); // Create   
 
     message = messages[i].message;  
@@ -112,5 +121,5 @@ function renderChat() {
     messageParagraph.textContent = author + ': ' + message; // Update content  
 
     chatSection.appendChild(messageParagraph); // Put it somewhere  
-  }
+  }  
 }  
